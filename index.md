@@ -1,7 +1,2 @@
-This is your home page! Write whatever comes to mind.
-
-Maybe an about me section, or a short bio.
-
-Or maybe you can write a small summary about your blog.
-
-Whatever you want!
+Hi!
+Welcome to my blog --Iteration #1--. I called it as such after getting frustrated trying to do the silly fantastical things and then realizing that a good simple "minimum viable product", is better than a half done fancy idea. So this is the first iteration of my blog. I plan on using this space to showcase some of my work.
