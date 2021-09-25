@@ -13,7 +13,8 @@
       <pubDate>Fri, 20 Aug 2021 11:00:59 -0400</pubDate>
       
       <guid>https://Sohaibpanwala.github.io/post/project-2/</guid>
-      <description>Testing Chart Studio&amp;rsquo;s Embedding:</description>
+      <description>I was provided with a series of csv files about the banking habits of customers: information about their chequing accounts, saving accounts and general other transaction data. I was also given information about the demographics of the customers - generic descriptors such as age, marital status, yearly income, gender and city/state.
+At this point i had to clean the data i was provided with - find and rectify typos in the messy data, impute missing values, encode the categorical variables and so on.</description>
     </item>
     
   </channel>
