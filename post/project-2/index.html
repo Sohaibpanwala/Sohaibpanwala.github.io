@@ -197,14 +197,17 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>I was provided with a series of csv files about the banking habits of customers: information about their chequing accounts, saving accounts and general other transaction data. I was also given information about the demographics of the customers - generic descriptors such as age, marital status, yearly income, gender and city/state.</p>
-<p>At this point i had to clean the data i was provided with - find and rectify typos in the messy data, impute missing values, encode the categorical variables and so on. I then got into the Unsupervised Machine Learning process from choosing the right features and the scaler of the data to utilizing Principal Component Analysis to reduce the data so i could graph it in a 2 dimensional space.</p>
-<p>Finally i used the Kmeans Clustering algorithm along with the elbow method to identify optimal clusters and iterated using PCA graphs to obtain the best clustering of the data.</p>
-<p>Essentially able to find patterns that customers fell into three overarching categories - young and lacking disposable income; older, unattached and wealthy; and older, married with multiple children and wealthy. This enables us to market and cater to these customers better. The business value here is this: to group one that is younger, the bank would be better served with not focusing on providing them with marketing about savings account and investments but rather.</p>
-<p>Here is some of the visual representations of my work:</p>
-	    
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>I was provided with a series of csv files about the banking habits of customers: information about their chequing accounts, saving accounts and general other transaction data. I was also given information about the demographics of the customers - descriptors such as age, marital status, yearly income, years with the bank, gender and city/state.</p>
+<p>With this data, i went about cleaning it - find and rectify typos in the messy data, data validation to ensure the right format for a given feature, impute missing values, encode the categorical variables and so on. I then got into the Unsupervised Machine Learning process: from choosing the right features and the scaler of the data to utilizing Principal Component Analysis to reduce the dimensions of the data, so i could graph it in a 2 dimensional space. The visualization would help me in understanding my data better.</p>
+<p>Finally, i used the K-means Clustering algorithm along with the elbow method to identify optimal clusters and iterated using PCA graphs to ascertain the best clustering of the data.</p>
+<p>My goal here is to be able to find overarching commonalities to then subdivide and segregate the customers. My results were that I had three clusters and the commonalities of each cluster were as such - young and lacking disposable income; older, unattached, lack of progeny, and wealthy; and older, married with multiple children and wealthy. This enables us to market and cater to these customers better.</p>
+<p>The business value here is this: to group one that is younger, the bank ideally should not focus on providing them with marketing and offers about savings account and investments but rather a credit card with a large cashback program. To the group that is largely older, married with children and having high incomes marketing about mortgage programs and perhaps targeted low interest rates would be a winning solution.</p>
+<p>Here are some of the visual representations of my work:</p>
+
+<p>PCA Clusters</p>
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~Sohaib3000/17.embed"></iframe>	    
 
+<p>Radar Plots showing the standardized differences between the clusters of bank customers</p>
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~Sohaib3000/10.embed"></iframe>
 
 	    
